@@ -3,7 +3,7 @@ export const siteConfig = {
   name: "Morteza Poudat",
   jobTitle: { en: "Python & Web Developer", de: "Python- & Webentwickler" },
   email: "poudat.mtz@gmail.com",
-  domain: "TODO_DOMAIN", // e.g. https://example.de (no trailing slash)
+  domain: "https://poudatmorteza.github.io/mori-portfolio", // full site URL incl. base path, no trailing slash
   formEndpoint: "TODO_FORM_ENDPOINT", // Formspree/Web3Forms URL
   photo: "TODO_PHOTO", // optional, path in /public
   links: {
