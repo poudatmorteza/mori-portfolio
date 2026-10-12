@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@theme { --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif; --color-accent: #0f766e; --color-accent-dark: #115e59; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+html { scroll-padding-top: 5rem; }
+:focus-visible { outline: 3px solid #0f766e; outline-offset: 2px; border-radius: 4px; }

@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Morteza Poudat – Python- & Webentwickler",
+    "description": "Python- & Webentwickler in Deutschland: schnelle Websites, Datenextraktion und Automatisierung für kleine Unternehmen und Ingenieurfirmen.",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz"
+  },
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "services": "Leistungen",
+    "projects": "Projekte",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "menu": "Menü",
+    "lang": "Language: English",
+    "langShort": "EN",
+    "home": "Start"
+  },
+  "hero": {
+    "h1": "Morteza Poudat: Python- & Webentwickler",
+    "sub": "Ich entwickle schnelle Websites, Datenwerkzeuge und Automatisierungen für kleine Unternehmen und Ingenieurfirmen.",
+    "cta": "Projekt anfragen",
+    "work": "Meine Arbeiten"
+  },
+  "services": {
+    "title": "Leistungen",
+    "items": [
+      {
+        "t": "Websites für kleine Unternehmen",
+        "d": "Moderne, mobilfreundliche Websites, die schnell laden, bei Google gut gefunden werden und zweisprachig (DE/EN) sind."
+      },
+      {
+        "t": "Datenextraktion & -import",
+        "d": "Ich hole Daten aus PDFs (auch gescannt, mit OCR und Tabellenerkennung), Tabellen und Websites, bereinige sie und lade sie in strukturierte Datenbanken. Dazu entwerfe ich passende Datenmodelle."
+      },
+      {
+        "t": "Individuelle Tools, Plugins & Automatisierung",
+        "d": "Plugins und Erweiterungen für Unternehmens-Datensoftware, interne Tools (z. B. Zeiterfassung mit Clockify-Anbindung), Python-APIs und Automatisierungen, mit Beratung von der Anforderung bis zur Einführung."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projekte",
+    "soon": "Demnächst",
+    "live": "Live",
+    "github": "GitHub",
+    "details": "Details",
+    "back": "Zurück zu den Projekten",
+    "items": {
+      "portfolio": {
+        "t": "Dieses Portfolio",
+        "d": "Ein zweisprachiges, schnelles und barrierearmes Portfolio mit Next.js und Tailwind."
+      },
+      "business-demo": {
+        "t": "Demo-Website für kleine Unternehmen",
+        "d": "Eine komplette Beispiel-Website für ein lokales Unternehmen, mit Angebot, Öffnungszeiten, Karte und Kontaktformular."
+      },
+      "materials-data": {
+        "t": "Werkstoffdaten: Import & Suche (Demo)",
+        "d": "Importiert öffentliche bzw. Beispiel-Materialdaten aus Dateien, bereinigt sie, speichert sie in einer Datenbank und macht sie im Browser durchsuchbar."
+      },
+      "pdf-extractor": {
+        "t": "PDF-Tabellen in die Datenbank (Demo)",
+        "d": "PDF-Datenblatt hochladen, auch gescannt. Das Tool erkennt Tabellen per OCR und Rastererkennung, wandelt sie in saubere Datensätze um und speichert sie in einer durchsuchbaren Datenbank."
+      }
+    }
+  },
+  "about": {
+    "title": "Über mich",
+    "text": "Ich bin Python- und Webentwickler in Deutschland und arbeite an Datensoftware für die Werkstoff- und Ingenieurbranche. Ich baue Pipelines, die Daten aus PDFs (inkl. OCR und Tabellen-/Rastererkennung), Tabellen und dem Web extrahieren, bereinigen und in strukturierte technische Datenbanken laden. Ich entwerfe Datenmodelle, die Werkstoffe mit Prüfungen, Proben und Messdaten wie Spektren verknüpfen. Außerdem entwickle ich Plugins für Unternehmens-Datensoftware und interne Tools wie Zeiterfassung. Neben dem Code halte ich technische Präsentationen, berate Kunden, nehme Anforderungen auf und leite Software-Einführungsprojekte. Als Freelancer bringe ich kleine Unternehmen online und helfe Ingenieurteams, aus unübersichtlichen Daten zuverlässige Werkzeuge zu machen.",
+    "skills": "Kenntnisse"
+  },
+  "contact": {
+    "title": "Lassen Sie uns zusammenarbeiten",
+    "text": "Erzählen Sie mir kurz von Ihrem Projekt. Ich antworte innerhalb von 1–2 Werktagen.",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "consent": "Ich bin einverstanden, dass meine Angaben zur Beantwortung meiner Anfrage verwendet werden. Siehe",
+    "consentLink": "Datenschutzerklärung",
+    "send": "Senden",
+    "sending": "Wird gesendet…",
+    "success": "Danke! Ich melde mich bald.",
+    "error": "Senden fehlgeschlagen. Bitte schreiben Sie mir direkt eine E-Mail.",
+    "required": "Bitte füllen Sie dieses Feld aus.",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "consentReq": "Bitte bestätigen Sie den Datenschutzhinweis.",
+    "mailto": "Oder direkt per E-Mail",
+    "linksTitle": "Profile"
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "legal": {
+    "todo": "Platzhalter – der endgültige Text wird vor dem Start ergänzt.",
+    "impressumH": "Impressum",
+    "datenschutzH": "Datenschutzerklärung",
+    "dsIntro": "Diese Website verwendet keine Tracking-Cookies und keine Analyse-Tools.",
+    "dsForm": "Kontaktformular: Beim Absenden werden Name, E-Mail und Nachricht an den Formulardienst (Formspree oder Web3Forms) übertragen und per E-Mail an mich weitergeleitet, ausschließlich zur Beantwortung Ihrer Anfrage (Art. 6 Abs. 1 lit. b DSGVO).",
+    "dsHost": "Hosting: Die Seite ist eine statische Website; der Hosting-Anbieter verarbeitet technische Zugriffsdaten (z. B. IP-Adresse) in Server-Logs."
+  }
+}
