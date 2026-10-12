@@ -7,7 +7,6 @@ export const siteConfig = {
   formEndpoint: "TODO_FORM_ENDPOINT", // Formspree/Web3Forms URL
   photo: "TODO_PHOTO", // optional, path in /public
   links: {
-    github: "https://github.com/poudatmorteza",
     linkedin: "TODO_LINKEDIN_URL",
     malt: "TODO_MALT_URL",
     upwork: "TODO_UPWORK_URL",

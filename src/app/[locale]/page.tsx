@@ -68,7 +68,7 @@ export default async function Home({ params }: Props) {
             <h3 className="mt-8 font-semibold">{m.contact.linksTitle}</h3>
             <ul className="mt-3 space-y-2 text-slate-200">
               {!isTodo(siteConfig.email) && <li><a className="underline" href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></li>}
-              {Object.entries(siteConfig.links).filter(([, u]) => !isTodo(u)).map(([k, u]) => <li key={k}><a className="underline capitalize" href={u} rel="me noopener">{k === "github" ? "GitHub" : k}</a></li>)}
+              {Object.entries(siteConfig.links).filter(([, u]) => !isTodo(u)).map(([k, u]) => <li key={k}><a className="underline capitalize" href={u} rel="me noopener">{k}</a></li>)}
             </ul></div>
           <ContactForm locale={locale} m={m.contact} />
         </div>
