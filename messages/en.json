@@ -47,6 +47,10 @@
     "details": "Details",
     "back": "Back to projects",
     "items": {
+      "nilughorbani": {
+        "t": "Nilu Ghorbani – artist portfolio",
+        "d": "Portfolio website for Nilu Ghorbani, an artist based in Düsseldorf with a background in architecture. It presents her paintings, mixed-media works and studio projects, in English and German. Built by me."
+      },
       "portfolio": {
         "t": "This portfolio site",
         "d": "A bilingual, fast and accessible portfolio built with Next.js and Tailwind."
@@ -63,7 +67,9 @@
         "t": "PDF table-to-database extractor demo",
         "d": "Upload a PDF datasheet, even a scanned one. The tool finds the tables with OCR and grid detection, turns them into clean rows and saves them in a database you can search."
       }
-    }
+    },
+    "visit": "Visit site",
+    "shotAlt": "Screenshot of the homepage"
   },
   "about": {
     "title": "About",

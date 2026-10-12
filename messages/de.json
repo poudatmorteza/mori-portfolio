@@ -47,6 +47,10 @@
     "details": "Details",
     "back": "Zurück zu den Projekten",
     "items": {
+      "nilughorbani": {
+        "t": "Nilu Ghorbani – Portfolio einer Künstlerin",
+        "d": "Portfolio-Website für Nilu Ghorbani, Künstlerin in Düsseldorf mit Hintergrund in Architektur. Sie zeigt ihre Malerei, Mixed-Media-Arbeiten und Atelierprojekte, auf Englisch und Deutsch. Von mir umgesetzt."
+      },
       "portfolio": {
         "t": "Dieses Portfolio",
         "d": "Ein zweisprachiges, schnelles und barrierearmes Portfolio mit Next.js und Tailwind."
@@ -63,7 +67,9 @@
         "t": "PDF-Tabellen in die Datenbank (Demo)",
         "d": "PDF-Datenblatt hochladen, auch gescannt. Das Tool erkennt Tabellen per OCR und Rastererkennung, wandelt sie in saubere Datensätze um und speichert sie in einer durchsuchbaren Datenbank."
       }
-    }
+    },
+    "visit": "Website ansehen",
+    "shotAlt": "Screenshot der Startseite"
   },
   "about": {
     "title": "Über mich",
