@@ -51,6 +51,15 @@
         "t": "Nilu Ghorbani – artist portfolio",
         "d": "Portfolio website for Nilu Ghorbani, an artist based in Düsseldorf with a background in architecture. It presents her paintings, mixed-media works and studio projects, in English and German. Built by me."
       },
+      "profis-barbershop": {
+        "t": "Profis Barbershop – online booking (client prototype)",
+        "d": "Mobile-first online booking for a one-person barbershop in Düsseldorf. A client prototype from 2026: concept, UX design and full-stack development by me.",
+        "long": [
+          "Customers choose a service, swipe through a day carousel that shows free times at a glance and reserve their appointment in a few taps. There is no payment, so it feels like booking an appointment, not buying something. They receive a confirmation email with a calendar file and a cancel link, followed by reminders.",
+          "The owner works in a secure admin area with password and authenticator-code login. There they set opening hours, the lunch break and blocked times, and see their appointments in day, week and month views, along with customers and services.",
+          "Built with Next.js 16, TypeScript, PostgreSQL with Drizzle ORM and next-intl for German and English. A database constraint rules out double bookings, and Playwright end-to-end tests cover the booking flow."
+        ]
+      },
       "portfolio": {
         "t": "This portfolio site",
         "d": "A bilingual, fast and accessible portfolio built with Next.js and Tailwind."
@@ -69,7 +78,8 @@
       }
     },
     "visit": "Visit site",
-    "shotAlt": "Screenshot of the homepage"
+    "shotAlt": "Screenshot of the homepage",
+    "prototype": "Prototype"
   },
   "about": {
     "title": "About",
