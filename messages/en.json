@@ -64,10 +64,6 @@
         "t": "This portfolio site",
         "d": "A bilingual, fast and accessible portfolio built with Next.js and Tailwind."
       },
-      "business-demo": {
-        "t": "Small-business demo website",
-        "d": "A complete example website for a local business, with menu/services, opening hours, map and contact form."
-      },
       "materials-data": {
         "t": "Materials-data import & search demo",
         "d": "Imports public/sample material data from files, cleans it, stores it in a database and lets you search and filter it in the browser."

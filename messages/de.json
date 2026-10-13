@@ -64,10 +64,6 @@
         "t": "Dieses Portfolio",
         "d": "Ein zweisprachiges, schnelles und barrierearmes Portfolio mit Next.js und Tailwind."
       },
-      "business-demo": {
-        "t": "Demo-Website für kleine Unternehmen",
-        "d": "Eine komplette Beispiel-Website für ein lokales Unternehmen, mit Angebot, Öffnungszeiten, Karte und Kontaktformular."
-      },
       "materials-data": {
         "t": "Werkstoffdaten: Import & Suche (Demo)",
         "d": "Importiert öffentliche bzw. Beispiel-Materialdaten aus Dateien, bereinigt sie, speichert sie in einer Datenbank und macht sie im Browser durchsuchbar."
