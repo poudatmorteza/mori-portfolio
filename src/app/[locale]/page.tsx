@@ -2,7 +2,7 @@ import { getMessages, type Locale } from "@/lib/i18n";
 import { pageMeta } from "@/lib/meta";
 import { projects } from "@/lib/projects";
 import { siteConfig, siteUrl, isTodo } from "@/site.config";
-import { p } from "@/lib/path";
+import { p, cvHref } from "@/lib/path";
 import ContactForm from "@/components/ContactForm";
 import ProjectArt from "@/components/ProjectArt";
 type Props = { params: Promise<{ locale: Locale }> };
@@ -69,7 +69,8 @@ export default async function Home({ params }: Props) {
             <ul className="mt-3 space-y-2 text-slate-200">
               {!isTodo(siteConfig.email) && <li><a className="underline" href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></li>}
               {Object.entries(siteConfig.links).filter(([, u]) => !isTodo(u)).map(([k, u]) => <li key={k}><a className="underline capitalize" href={u} rel="me noopener">{k}</a></li>)}
-            </ul></div>
+            </ul>
+            <a href={cvHref(locale)} download className="mt-8 inline-block rounded-lg bg-accent px-5 py-2.5 font-semibold text-white shadow hover:bg-accent-dark">{m.nav.cv}</a></div>
           <ContactForm locale={locale} m={m.contact} />
         </div>
       </section>

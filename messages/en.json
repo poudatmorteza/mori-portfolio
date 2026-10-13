@@ -14,7 +14,8 @@
     "menu": "Menu",
     "lang": "Sprache: Deutsch",
     "langShort": "DE",
-    "home": "Home"
+    "home": "Home",
+    "cv": "Download CV (PDF)"
   },
   "hero": {
     "h1": "Morteza Poudat: Python & Web Developer",

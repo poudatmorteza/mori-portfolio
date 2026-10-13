@@ -14,7 +14,8 @@
     "menu": "Menü",
     "lang": "Language: English",
     "langShort": "EN",
-    "home": "Start"
+    "home": "Start",
+    "cv": "Lebenslauf herunterladen (PDF)"
   },
   "hero": {
     "h1": "Morteza Poudat: Python- & Webentwickler",

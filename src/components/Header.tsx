@@ -1,5 +1,5 @@
 import type { Locale, Messages } from "@/lib/i18n";
-import { p } from "@/lib/path";
+import { p, cvHref } from "@/lib/path";
 import LangSwitch from "./LangSwitch";
 import MobileMenu from "./MobileMenu";
 export default function Header({ locale, m }: { locale: Locale; m: Messages }) {
@@ -10,7 +10,7 @@ export default function Header({ locale, m }: { locale: Locale; m: Messages }) {
         <a href={p(`/${locale}/`)} className="font-semibold tracking-tight">Morteza Poudat</a>
         <nav aria-label="Main" className="hidden md:block"><ul className="flex gap-6 text-sm text-slate-700">
           {items.map((i) => <li key={i.href}><a className="hover:text-accent" href={i.href}>{i.label}</a></li>)}</ul></nav>
-        <div className="flex items-center gap-2"><LangSwitch locale={locale} label={m.nav.lang} short={m.nav.langShort} /><MobileMenu label={m.nav.menu} items={items} /></div>
+        <div className="flex items-center gap-2"><a href={cvHref(locale)} download className="hidden rounded-md border border-accent px-3 py-1 text-sm font-medium text-accent hover:bg-accent hover:text-white md:inline-block">{m.nav.cv}</a><LangSwitch locale={locale} label={m.nav.lang} short={m.nav.langShort} /><MobileMenu label={m.nav.menu} items={[...items, { href: cvHref(locale), label: m.nav.cv }]} /></div>
       </div>
     </header>
   );
