@@ -52,15 +52,16 @@
         "t": "Nilu Ghorbani – artist portfolio",
         "d": "Portfolio website for Nilu Ghorbani, an artist based in Düsseldorf with a background in architecture. It presents her paintings, mixed-media works and studio projects, in English and German. Built by me."
       },
-      "profis-barbershop": {
-        "t": "Profis Barbershop – online booking (client prototype)",
-        "d": "Mobile-first online booking for a one-person barbershop in Düsseldorf. A client prototype from 2026: concept, UX design and full-stack development by me.",
+      "ario-barber": {
+        "t": "Ario Barber",
+        "d": "A custom booking website and admin system for a Düsseldorf barbershop: German/English online booking, email confirmations and reminders, self-service cancel and reschedule, and a full admin for bookings, customers, services and opening hours.",
         "long": [
-          "Customers choose a service, swipe through a day carousel that shows free times at a glance and reserve their appointment in a few taps. There is no payment, so it feels like booking an appointment, not buying something. They receive a confirmation email with a calendar file and a cancel link, followed by reminders.",
-          "The owner works in a secure admin area with password and authenticator-code login. There they set opening hours, the lunch break and blocked times, and see their appointments in day, week and month views, along with customers and services.",
-          "Built with Next.js 16, TypeScript, PostgreSQL with Drizzle ORM and next-intl for German and English. A database constraint rules out double bookings, and Playwright end-to-end tests cover the booking flow."
+          "Customers book online in German or English, then get email confirmations and reminders. They can cancel or reschedule on their own without calling the shop.",
+          "The barber manages bookings, customers, services and opening hours in a full admin area.",
+          "Built with Next.js, TypeScript and PostgreSQL."
         ]
       },
+
       "portfolio": {
         "t": "This portfolio site",
         "d": "A bilingual, fast and accessible portfolio built with Next.js and Tailwind."

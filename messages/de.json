@@ -52,15 +52,16 @@
         "t": "Nilu Ghorbani – Portfolio einer Künstlerin",
         "d": "Portfolio-Website für Nilu Ghorbani, Künstlerin in Düsseldorf mit Hintergrund in Architektur. Sie zeigt ihre Malerei, Mixed-Media-Arbeiten und Atelierprojekte, auf Englisch und Deutsch. Von mir umgesetzt."
       },
-      "profis-barbershop": {
-        "t": "Profis Barbershop – Online-Terminbuchung (Kundenprototyp)",
-        "d": "Mobile-first Online-Terminbuchung für einen Ein-Personen-Barbershop in Düsseldorf. Ein Kundenprototyp aus 2026: Konzept, UX-Design und Full-Stack-Entwicklung von mir.",
+      "ario-barber": {
+        "t": "Ario Barber",
+        "d": "Eine individuelle Buchungswebsite mit Admin-System für einen Düsseldorfer Barbershop: Online-Terminbuchung auf Deutsch und Englisch, E-Mail-Bestätigungen und Erinnerungen, Selbstbedienung zum Stornieren und Umbuchen sowie ein vollständiger Admin-Bereich für Termine, Kunden, Leistungen und Öffnungszeiten.",
         "long": [
-          "Kundinnen und Kunden wählen eine Leistung, wischen durch ein Tageskarussell, das freie Zeiten auf einen Blick zeigt, und reservieren ihren Termin mit wenigen Klicks. Bezahlt wird nicht online, es fühlt sich also nach Terminvereinbarung an und nicht nach Einkauf. Danach kommt eine Bestätigung per E-Mail mit Kalenderdatei und Stornierungslink, später folgen Erinnerungen.",
-          "Der Inhaber arbeitet in einem gesicherten Adminbereich mit Passwort und Authenticator-Code. Dort legt er Öffnungszeiten, Mittagspause und gesperrte Zeiten fest und sieht seine Termine in Tages-, Wochen- und Monatsansicht, dazu Kunden und Leistungen.",
-          "Umgesetzt mit Next.js 16, TypeScript, PostgreSQL mit Drizzle ORM und next-intl für Deutsch und Englisch. Eine Datenbank-Constraint verhindert Doppelbuchungen, Playwright-End-to-End-Tests sichern den Buchungsablauf ab."
+          "Kundinnen und Kunden buchen online auf Deutsch oder Englisch und erhalten E-Mail-Bestätigungen sowie Erinnerungen. Stornieren und Umbuchen geht selbstständig, ohne den Laden anzurufen.",
+          "Der Barbier verwaltet Termine, Kunden, Leistungen und Öffnungszeiten in einem vollständigen Admin-Bereich.",
+          "Umgesetzt mit Next.js, TypeScript und PostgreSQL."
         ]
       },
+
       "portfolio": {
         "t": "Dieses Portfolio",
         "d": "Ein zweisprachiges, schnelles und barrierearmes Portfolio mit Next.js und Tailwind."

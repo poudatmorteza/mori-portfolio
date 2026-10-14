@@ -1,15 +1,36 @@
 import { getMessages, locales, type Locale } from "@/lib/i18n";
 import { pageMeta } from "@/lib/meta";
-import { projects } from "@/lib/projects";
+import { projects, projectSlugAliases, resolveProjectSlug } from "@/lib/projects";
 import { p } from "@/lib/path";
 import ProjectArt from "@/components/ProjectArt";
 type Props = { params: Promise<{ locale: Locale; slug: string }> };
 export const dynamicParams = false;
-export function generateStaticParams() { return locales.flatMap((locale) => projects.map((pr) => ({ locale, slug: pr.slug }))); }
+export function generateStaticParams() {
+  const slugs = [...projects.map((pr) => pr.slug), ...Object.keys(projectSlugAliases)];
+  return locales.flatMap((locale) => slugs.map((slug) => ({ locale, slug })));
+}
 const item = (l: Locale, s: string) => getMessages(l).projects.items[s as keyof ReturnType<typeof getMessages>["projects"]["items"]];
-export async function generateMetadata({ params }: Props) { const { locale, slug } = await params; return pageMeta(locale, `/projects/${slug}/`, item(locale, slug).t); }
+export async function generateMetadata({ params }: Props) {
+  const { locale, slug } = await params;
+  const canonical = resolveProjectSlug(slug);
+  return pageMeta(locale, `/projects/${canonical}/`, item(locale, canonical).t);
+}
 export default async function Project({ params }: Props) {
-  const { locale, slug } = await params; const m = getMessages(locale); const pr = projects.find((x) => x.slug === slug)!; const t = item(locale, slug);
+  const { locale, slug } = await params;
+  const canonical = resolveProjectSlug(slug);
+  if (slug !== canonical) {
+    const href = p(`/${locale}/projects/${canonical}/`);
+    return (
+      <article className="mx-auto max-w-3xl px-5 py-16">
+        <meta httpEquiv="refresh" content={`0;url=${href}`} />
+        <script dangerouslySetInnerHTML={{ __html: `location.replace(${JSON.stringify(href)})` }} />
+        <p className="text-slate-700">
+          <a href={href} className="font-semibold text-accent hover:underline">→ {item(locale, canonical).t}</a>
+        </p>
+      </article>
+    );
+  }
+  const m = getMessages(locale); const pr = projects.find((x) => x.slug === canonical)!; const t = item(locale, canonical);
   return (
     <article className="mx-auto max-w-3xl px-5 py-16">
       <a href={p(`/${locale}/#projects`)} className="text-sm font-semibold text-accent hover:underline">← {m.projects.back}</a>
