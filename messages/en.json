@@ -81,7 +81,7 @@
   },
   "about": {
     "title": "About",
-    "text": "I'm a Python and web developer based in Germany, working on data software for the materials and engineering industry. I build pipelines that extract data from PDFs (including OCR and table/grid detection), spreadsheets and the web, then clean it and load it into structured technical databases. I design data models that link materials with their tests, specimens and measurement data such as spectra. I also develop plugins for enterprise data software and internal tools such as time tracking. Beyond code, I give technical presentations, advise clients, gather requirements and manage software rollout projects. As a freelancer I help small businesses get online and help engineering teams turn messy data into reliable tools.",
+    "text": "I'm a Python and web developer based in Germany, working on data software for the materials and engineering industry. I build pipelines that extract data from PDFs (including OCR and table/grid detection), spreadsheets and the web, then clean it and load it into structured technical databases. I design data models that link materials with their tests, specimens and measurement data such as spectra. I also develop plugins for enterprise data software and internal tools such as time tracking. Beyond code, I give technical presentations, advise clients, gather requirements and manage software rollout projects. Since 2026 I also work as a freelance web developer, building websites for clients including Ario Barber (ariobarber.de) and Nilu Ghorbani (nilughorbani.com), and I help engineering teams turn messy data into reliable tools.",
     "skills": "Skills"
   },
   "contact": {
