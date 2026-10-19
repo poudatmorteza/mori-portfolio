@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Morteza Poudat – Python & Web Developer",
-    "description": "Python & web developer in Germany: fast websites, data extraction and automation for small businesses and engineering companies.",
+    "title": "Morteza Poudat – Application Consultant | Python & Web Development",
+    "description": "Application consultant and Python & web developer in Düsseldorf, Germany: customer software projects, data integration and migration, websites and automation.",
     "impressum": "Legal notice",
     "datenschutz": "Privacy policy"
   },
@@ -18,8 +18,8 @@
     "cv": "Download CV (PDF)"
   },
   "hero": {
-    "h1": "Morteza Poudat: Python & Web Developer",
-    "sub": "I build fast websites, data tools and automations for small businesses and engineering companies.",
+    "h1": "Morteza Poudat: Application Consultant & Python Developer",
+    "sub": "Python & web development and data integration. I take software projects from the first requirements workshop to delivered web applications, data migrations and automations – for engineering companies and small businesses.",
     "cta": "Start a project",
     "work": "See my work"
   },
@@ -61,7 +61,6 @@
           "Built with Next.js, TypeScript and PostgreSQL."
         ]
       },
-
       "portfolio": {
         "t": "This portfolio site",
         "d": "A bilingual, fast and accessible portfolio built with Next.js and Tailwind."
@@ -81,7 +80,7 @@
   },
   "about": {
     "title": "About",
-    "text": "I'm a Python and web developer based in Germany, working on data software for the materials and engineering industry. I build pipelines that extract data from PDFs (including OCR and table/grid detection), spreadsheets and the web, then clean it and load it into structured technical databases. I design data models that link materials with their tests, specimens and measurement data such as spectra. I also develop plugins for enterprise data software and internal tools such as time tracking. Beyond code, I give technical presentations, advise clients, gather requirements and manage software rollout projects. Since 2026 I also work as a freelance web developer, building websites for clients including Ario Barber (ariobarber.de) and Nilu Ghorbani (nilughorbani.com), and I help engineering teams turn messy data into reliable tools.",
+    "text": "I'm an application consultant and Python developer based in Düsseldorf, with an engineering background (M.Sc. Computational Mechanics). At Matplus GmbH since 2017, I take customer projects from requirements workshops to delivered plugins, web applications, data migrations and data models. My work covers consulting and project management, data extraction from PDFs, scans, spreadsheets and APIs, data cleaning and migration, and data modelling for materials and engineering data. I have also spoken at an industry conference on copper materials databases. Alongside this, I build websites and booking systems as a freelance web developer, for clients including Ario Barber (ariobarber.de) and Nilu Ghorbani (nilughorbani.com).",
     "skills": "Skills"
   },
   "contact": {
