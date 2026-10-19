@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Morteza Poudat – Python- & Webentwickler",
-    "description": "Python- & Webentwickler in Deutschland: schnelle Websites, Datenextraktion und Automatisierung für kleine Unternehmen und Ingenieurfirmen.",
+    "title": "Morteza Poudat – Application Consultant | Python- & Webentwicklung",
+    "description": "Application Consultant sowie Python- und Webentwickler in Düsseldorf: Softwareprojekte für Kunden, Datenintegration und -migration, Websites und Automatisierung.",
     "impressum": "Impressum",
     "datenschutz": "Datenschutz"
   },
@@ -15,11 +15,11 @@
     "lang": "Language: English",
     "langShort": "EN",
     "home": "Start",
-    "cv": "Lebenslauf herunterladen (PDF)"
+    "cv": "Lebenslauf herunterladen (PDF, Englisch)"
   },
   "hero": {
-    "h1": "Morteza Poudat: Python- & Webentwickler",
-    "sub": "Ich entwickle schnelle Websites, Datenwerkzeuge und Automatisierungen für kleine Unternehmen und Ingenieurfirmen.",
+    "h1": "Morteza Poudat: Application Consultant & Python-Entwickler",
+    "sub": "Python- & Webentwicklung und Datenintegration. Ich begleite Softwareprojekte vom ersten Anforderungsworkshop bis zur ausgelieferten Webanwendung, Datenmigration oder Automatisierung – für Ingenieurunternehmen und kleine Betriebe.",
     "cta": "Projekt anfragen",
     "work": "Meine Arbeiten"
   },
@@ -61,7 +61,6 @@
           "Umgesetzt mit Next.js, TypeScript und PostgreSQL."
         ]
       },
-
       "portfolio": {
         "t": "Dieses Portfolio",
         "d": "Ein zweisprachiges, schnelles und barrierearmes Portfolio mit Next.js und Tailwind."
@@ -81,7 +80,7 @@
   },
   "about": {
     "title": "Über mich",
-    "text": "Ich bin Python- und Webentwickler in Deutschland und arbeite an Datensoftware für die Werkstoff- und Ingenieurbranche. Ich baue Pipelines, die Daten aus PDFs (inkl. OCR und Tabellen-/Rastererkennung), Tabellen und dem Web extrahieren, bereinigen und in strukturierte technische Datenbanken laden. Ich entwerfe Datenmodelle, die Werkstoffe mit Prüfungen, Proben und Messdaten wie Spektren verknüpfen. Außerdem entwickle ich Plugins für Unternehmens-Datensoftware und interne Tools wie Zeiterfassung. Neben dem Code halte ich technische Präsentationen, berate Kunden, nehme Anforderungen auf und leite Software-Einführungsprojekte. Seit 2026 arbeite ich außerdem als freiberuflicher Webentwickler und baue Websites für Kunden – darunter Ario Barber (ariobarber.de) und Nilu Ghorbani (nilughorbani.com) – und helfe Ingenieurteams, aus unübersichtlichen Daten zuverlässige Werkzeuge zu machen.",
+    "text": "Ich bin Application Consultant und Python-Entwickler in Düsseldorf mit ingenieurwissenschaftlichem Hintergrund (M.Sc. Computational Mechanics). Seit 2017 begleite ich bei der Matplus GmbH Kundenprojekte vom Anforderungsworkshop bis zu ausgelieferten Plugins, Webanwendungen, Datenmigrationen und Datenmodellen. Meine Schwerpunkte sind Beratung und Projektleitung, die Extraktion von Daten aus PDFs, Scans, Excel-Dateien und APIs, Datenbereinigung und -migration sowie die Datenmodellierung für Werkstoff- und Ingenieurdaten. Auf einer Fachkonferenz habe ich über Datenbanken für Kupferwerkstoffe vorgetragen. Daneben entwickle ich als freiberuflicher Webentwickler Websites und Buchungssysteme, unter anderem für Ario Barber (ariobarber.de) und Nilu Ghorbani (nilughorbani.com).",
     "skills": "Kenntnisse"
   },
   "contact": {

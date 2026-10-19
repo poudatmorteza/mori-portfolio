@@ -1,7 +1,7 @@
 // All values Mori must fill in before launch are marked TODO_.
 export const siteConfig = {
   name: "Morteza Poudat",
-  jobTitle: { en: "Python & Web Developer", de: "Python- & Webentwickler" },
+  jobTitle: { en: "Application Consultant | Python & Web Development | Data Integration", de: "Application Consultant | Python- & Webentwicklung | Datenintegration" },
   email: "poudat.mtz@gmail.com",
   domain: "https://poudatmorteza.github.io/mori-portfolio", // full site URL incl. base path, no trailing slash
   formEndpoint: "TODO_FORM_ENDPOINT", // Formspree/Web3Forms URL

@@ -7,7 +7,7 @@ import ContactForm from "@/components/ContactForm";
 import ProjectArt from "@/components/ProjectArt";
 type Props = { params: Promise<{ locale: Locale }> };
 export async function generateMetadata({ params }: Props) { const { locale } = await params; return pageMeta(locale, "/"); }
-const skills = ["Python", "PyMuPDF", "OpenCV", "OCR", "Web scraping", "Data parsing & cleaning", "SQL & data modelling", "FastAPI", "Plugin development", "JavaScript/TypeScript", "Next.js", "Tailwind", "Docker", "Clockify API", "Requirements & project management", "Technical presentations"];
+const skills = ["Requirements workshops & consulting", "Project management", "Python (Pandas)", "SQL, PostgreSQL, MongoDB", "Data modelling & migration", "ETL (KNIME)", "PDF extraction: PyMuPDF, OpenCV, OCR", "Web scraping & APIs", "JavaScript/TypeScript", "React & Next.js", "Django", "HTML & CSS", "Git/GitLab", "Docker & Linux", "Technical presentations"];
 const icons = ["M3 5h18v12H3zM8 21h8M12 17v4", "M4 4h10l6 6v10H4zM14 4v6h6M8 14h8M8 17h5", "M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"];
 export default async function Home({ params }: Props) {
   const { locale } = await params;
